@@ -51,7 +51,6 @@ export const useWebsocket = (jwtToken, myId) => {
 
         socket.on("new message", json => {
             const message = JSON.parse(json)
-            console.log("frId in new mes: ", friendId)
             if (friendId === message.from || myId === message.from) {
                 setMessages(prevMessages => ([...prevMessages, message]))
             }
