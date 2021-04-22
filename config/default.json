@@ -1,0 +1,7 @@
+{
+  "port": 5000,
+  "MongoURI": "mongodb+srv://maksim:12345qwerty@cluster0.8oqiy.mongodb.net/database?retryWrites=true&w=majority",
+  "jwtSecret": "secretKey",
+  "portSocketServer": 8999,
+  "portSocketServer": 8999
+}

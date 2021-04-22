@@ -1,0 +1,87 @@
+.send-message-box {
+    position: fixed;
+    bottom: 0;
+}
+
+.send-message-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    gap: 1em;
+    align-items: center;
+}
+
+.no-mp-block {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.full-height-block {
+    height: 100vh !important;
+}
+
+.input-field .prefix.active {
+    color: #ffeb3b;
+    transition: all .3s;
+}
+
+.input-field .prefix {
+    color: white;
+}
+
+.input-field .prefix ~ input {
+    width: 170px !important;
+}
+
+textarea.area-input {
+    border-bottom: 1px solid white !important;
+    box-shadow: 0 1px 0 0 white !important;
+}
+
+textarea.area-input + label {
+    color: white !important;
+}
+
+textarea.area-input:focus + label {
+    color: #ffeb3b !important;
+    transition: all .3s;
+}
+
+textarea.area-input:focus {
+    border-bottom: 1px solid #ffeb3b !important;
+    box-shadow: 0 1px 0 0 #ffeb3b !important;
+    transition: all .3s;
+}
+
+
+.messages {
+    max-height: calc(100vh - 86px);
+    padding-top: 1em !important;
+    overflow-y: auto;
+    display: grid;
+    gap: .7em;
+}
+
+.friend-message {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #bbdefb !important;
+
+    justify-self: left;
+    min-width: auto;
+    max-width: 80%;
+}
+
+.my-message {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #90caf9 !important;
+
+    justify-self: right;
+    min-width: auto;
+    max-width: 80%;
+}
+
+.send-btn {
+    width: 150px;
+    background-color: #1360B8 !important;
+}
