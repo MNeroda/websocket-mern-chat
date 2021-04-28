@@ -6,7 +6,7 @@
 [![Socket-io](/client/public/used_stack/websocket.png)](https://socket.io/)
 
 ## Demo
-    https://mern-chat-mneroda.herokuapp.com/
+https://mern-chat-mneroda.herokuapp.com/
 
 ## Running
 
