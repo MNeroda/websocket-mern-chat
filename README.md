@@ -5,6 +5,9 @@
 [![NodeJS](/client/public/used_stack/nodejs.png)](https://nodejs.org/en/)
 [![Socket-io](/client/public/used_stack/websocket.png)](https://socket.io/)
 
+## Demo
+    https://mern-chat-mneroda.herokuapp.com/
+
 ## Running
 
 ### install dependences
